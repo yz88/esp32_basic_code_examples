@@ -16,7 +16,7 @@ Two LEDs are used as status indicators for WiFi and MQTT connection status.
 
 ## wiring diagram
 
-![Fritzing wiring diagram](https://github.com/yz88/esp32_basic_dht_mqtt/blob/master/fritzing/esp32_basic_dht_breadboard.png)
+![Fritzing wiring diagram](https://github.com/yz88/esp32_basic_code_examples/blob/master/esp32_basic_dht_mqtt/fritzing/esp32_basic_dht_breadboard.png)
 
 ## Program code
 
