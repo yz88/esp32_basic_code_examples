@@ -14,11 +14,11 @@ Required material
   
 ## ESP-WROOM-32U pinout
 
-![ESP-WROOM-32U pinout](https://github.com/yz88/esp32_basic_blink/blob/master/fritzing/esp32-DevKitC-pinout.png)
+![ESP-WROOM-32U pinout](https://github.com/yz88/esp32_basic_blink/blob/master/esp32_basic_blink/fritzing/esp32-DevKitC-pinout.png)
 
 ## Circuit and program code
 
-![Fitzing Circuit](https://github.com/yz88/esp32_basic_blink/blob/master/fritzing/esp32_basic_blink_Steckplatine.png)
+![Fitzing Circuit](https://github.com/yz88/esp32_basic_blink/blob/master/esp32_basic_blink/fritzing/esp32_basic_blink_Steckplatine.png)
 
 ```cpp
 const uint8_t LED_PIN = 23;
