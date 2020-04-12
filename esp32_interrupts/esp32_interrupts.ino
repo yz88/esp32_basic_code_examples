@@ -12,7 +12,7 @@ struct Button
     bool pressed;
 };
 
-Button button1 = {18, 0, false};
+Button button1 = {34, 0, false};
 
 void IRAM_ATTR isr()
 {
