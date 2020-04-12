@@ -12,7 +12,7 @@ struct Button
     bool pressed;
 };
 
-Button button1 = {34, 0, false};
+Button button1 = {32, 0, false};
 
 void IRAM_ATTR isr()
 {
@@ -23,6 +23,8 @@ void IRAM_ATTR isr()
 void setup()
 {
     Serial.begin(115200);
+    Serial.printf("Setting up parameters.\n");
+    Serial.printf("Button PIN: %u\n", button1.PIN);
     pinMode(button1.PIN, INPUT_PULLUP);
     attachInterrupt(button1.PIN, isr, FALLING);
 }
